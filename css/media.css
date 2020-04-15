@@ -1,0 +1,101 @@
+@media screen and (max-width: 480px){
+
+    /*estilos del home*/
+    .logo{
+        margin-left: initial;
+    }   
+    .hero-container__button{
+        margin-top: 100px;
+        padding: 20px 60px;
+        font-size: 22px;
+        border-radius: 10px;
+        color:white;
+    }    
+
+    /*estilos de blogs*/
+    .blogs-hero__img{
+        width: 100%;
+    }
+    .blogs-hero__description{
+        width: 100%;
+        padding: 5px;
+    }
+    .blogs-hero__description h3{
+        margin-top: 10px;
+        font-size: 2em;
+    }   
+    .blogs-hero__description p{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .blogs-hero__description button{
+        padding: 20px 60px;
+    }
+    .blog-post__container{
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 0 30px;
+    }
+    .blog-post__container h2{
+        margin-bottom: 20px;
+    }
+    .post{
+        margin-bottom: 60px;
+    }   
+    .post-description button{
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    /*blog*/
+    .blog-img{
+        height: 200px;
+    }
+    .blog-container{
+        padding: 10%;
+    }    
+    .blog-text h2{
+        font-size: 2em;
+    }
+    .blog-text p{
+        font-size: .9em;
+    }
+
+    /*contact*/
+
+    .contact-link{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-link img{
+        width: 30%;
+    }
+    .contact-link__description{
+        width: 70%;
+    }
+    .contact-link__description h5{
+        font-size: 1.3em;
+    }
+    .contact-link__description p{
+        font-size: .8em;
+    }
+    
+    /*Perfil*/
+
+    .profile-hero__img{
+        width: 100%;
+        margin:0;
+    }
+    .profile-hero__description{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .profile-hero__description h3{
+        font-size: 2em;
+    }
+    .profile-hero__description p{
+        margin-top: 30px;
+        margin-bottom: 0;
+        font-size: .9em;
+    } 
+}
